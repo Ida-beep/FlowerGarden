@@ -1,0 +1,29 @@
+import React, {useState} from "react";
+import Button from 'react-bootstrap/Button';
+
+function FlowerButton(props){
+    const [buttonColor,setButtonColor] = useState("rgb(50,0,150,0.2)");
+    const button = {
+        marginLeft:"20px",
+        border:"none",
+        padding:"10px",
+        borderRadius:"27%",
+        backgroundColor:buttonColor,
+    }
+
+    function handleHover(){
+        setButtonColor("rgb(50,0,150,0.5)");
+    }
+    function handleHoverExit(){
+        setButtonColor("rgb(50,0,150,0.2)");
+        console.log("exit");
+    }
+
+    return(
+    <>
+        <Button style={button}/* onMouseLeave={handleHoverExit} onMouseEnter={handleHover} */>{props.name}</Button>
+    </>
+    );
+}
+
+export default FlowerButton;

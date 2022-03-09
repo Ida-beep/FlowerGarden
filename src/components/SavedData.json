@@ -1,0 +1,50 @@
+{
+"flowers":[
+    {
+    "1":{
+        "monday":{
+            "width":"",
+            "height":"",
+            "rotation":"",
+            "color":""
+        },
+        "tuesday":{
+            "width":"",
+            "height":"",
+            "rotation":"",
+            "color":""
+        },
+        "wednesday":{
+            "width":"",
+            "height":"",
+            "rotation":"",
+            "color":""
+        },
+        "thursday":{
+            "width":"",
+            "height":"",
+            "rotation":"",
+            "color":""
+        },
+        "friday":{
+            "width":"",
+            "height":"",
+            "rotation":"",
+            "color":""
+        },
+        "saturday":{
+            "width":"",
+            "height":"",
+            "rotation":"",
+            "color":""
+        },
+        "sunday":{
+            "width":"",
+            "height":"",
+            "rotation":"",
+            "color":""
+        }
+    }
+}
+]
+}
